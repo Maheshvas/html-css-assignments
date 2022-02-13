@@ -1,7 +1,91 @@
 /* Our CSS file. */
-
-
-.container, .content {
-width: 100%;
-height: 100%;
+body {
+  margin: 0;
+}
+#container,
+.content {
+  width: 100%;
+  height: 100%;
+}
+header {
+  background-color: green;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 10px;
+}
+.icon {
+  float: left;
+  margin-left: 0px;
+}
+.search {
+  float: right;
+  margin-top: 31px;
+  height: 25px;
+  padding: 5px;
+}
+nav {
+  text-align: center;
+  background-color: blue;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+nav ul li {
+  list-style: none;
+  display: inline;
+}
+.left-side {
+  background-color: grey;
+  border: 2px solid black;
+  width: 20%;
+  height: 560px;
+  display: inline-block;
+  overflow: hidden;
+}
+.left-side ul {
+  list-style-type: none;
+}
+.left-side li {
+  padding: 10px;
+  padding-left: 50px;
+  font-size: 20px;
+}
+.image-section {
+  background-color: white;
+  width: 55%;
+  height: 560px;
+  display: inline-block;
+  overflow: hidden;
+}
+.img1 img {
+  display: inline-block;
+  margin: 5px;
+  margin-top: 10px;
+  margin-left: 7px;
+}
+.right {
+  background-color: grey;
+  border: 2px solid black;
+  width: 20%;
+  height: 560px;
+  display: inline-block;
+  overflow: hidden;
+}
+.right-side li {
+  list-style-type: none;
+  padding: 10px;
+  padding-left: 50px;
+  font-size: 20px;
+}
+#page-footer {
+  background-color: gray;
+  border: 2px solid black;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
 }
